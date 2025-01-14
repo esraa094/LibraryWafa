@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(286.35deg,rgba(243, 186, 28, 0.99)3.47%,
+    rgba(180, 56, 18, 0.99)60.18%);
+  /*  font-family: Tahoma, Geneva, Verdana, sans-serif;*/
+}
+table{
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form div {
+    margin: 10px;
+    padding: 4px;
+    width: 190px;
+    text-align: center;
+}
+.box{
+    height: 20px;
+    width: 190px;
+    margin-top: 3px;
+}
+form div label{
+    font-size: 20pxs;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: rgb(49, 36, 4);
+}
+form div label:hover{
+    color: rgb(109, 3, 3);
+    letter-spacing: 1px;
+    transition: 500ms;
+}
+#sub{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background-color: brown;
+    border-radius: 20px;
+}
+#sub:hover{
+    cursor: pointer;
+    background-color: rgb(160, 79, 142);
+    transition: 0.3s;
+
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(77, 48, 10);
+    font-size: 40px;
+    font-weight: 600;
+}
+.box1{
+    text-align: center; 
+}
+.box2{
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+  } 
